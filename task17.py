@@ -3,7 +3,7 @@ parol = input("Parol: ")
 bor = False
 
 for belgi in parol:
-    if belgi.isdigit():
+    if belgi.digit():
         bor = True
 
 print(bor)
